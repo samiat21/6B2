@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        tr td{
+            padding: 1em;
+            background-color: green;
+        }
+        th{
+            background-color: orange;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <table border="3">
+        <caption>Food table</caption>
+        <thead>
+            <tr>
+                <th>Days</th>
+                <th>Breakfast</th>
+                <th>Lunch</th>
+                <th>Dinner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Sunday</th>
+                <td colspan="3">yam and egg</td>
+                <!-- <td>yam and egg</td>
+                <td>yam and egg</td> -->
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td>pap and akara</td>
+                <td>rice and stew</td>
+                <td>amala and ewedu</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>Custard</td>
+                <td rowspan="3">beans and bread</td>
+                <td>yam porridge</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>tea and bread</td>
+                <!-- <td>beans and bread</td> -->
+                <td>beans and plantain</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>pap and milk</td>
+                <!-- <td>beans and bread </td> -->
+                <td>amala and okro</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>pap and moimoi</td>
+                <td>eba and okro</td>
+                <td>rice and stew</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td>custard and akara</td>
+                <td>fried rice</td>
+                <td>jollof rice</td>
+            </tr>
+            <tfoot >
+                <tr>
+                    <td colspan="4">Eating healthy is important</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>
