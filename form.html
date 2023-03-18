@@ -42,7 +42,7 @@
             </li>
             <li>
               <label for="pnum">phone number</label>
-              <input type="tel" name="phone" id="pnum" />
+              <input type="tel" name="phone" id="pnum" max="11" />
             </li>
             <li>
               <label for="city">city you drive in</label>
@@ -63,7 +63,40 @@
                 </optgroup>
               </select>
             </li>
-            <li></li>
+            <li>
+              <label for="code">invite code(optional)</label>
+              <input
+                type="text"
+                name="code"
+                id="code"
+                minlength="7"
+                maxlength="7"
+              />
+            </li>
+            <li>
+              <input type="checkbox" name="agree1" id="agree1" />
+              <label for="agree1"
+                >I agree to be part of the driving lessons</label
+              >
+            </li>
+            <li><input type="checkbox" name="agree2" id="agree2" /></li>
+            <label for="agree2"
+              >I agree to all product services to be shared with me on my
+              email</label
+            >
+            <li>
+              <label for="photo">your passport photograph</label>
+              <input
+                type="file"
+                name="passport"
+                id="photo"
+                accept=".jpg,.png"
+                multiple
+              />
+            </li>
+            <li>
+              <input type="submit" value="create account" />
+            </li>
           </ul>
         </fieldset>
       </form>
