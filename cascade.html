@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      aside section {
+      aside + section {
         width: 65%;
         height: 300px;
       }
@@ -15,9 +15,9 @@
         background-color: #ffff00;
       }
       aside h2 {
-        font-size: 2em;
+        font-size: 2rem;
       }
-      h2 ~ p {
+      body h2 ~ p {
         border: 1em solid blue;
       }
     </style>
@@ -25,28 +25,24 @@
   <body>
     <main>
       <aside>
-        <section>
-          <h2>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos,
-            minus?
-          </h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
-            officiis molestiae distinctio vero officia tempora! Veritatis rem
-            quo ipsa non.
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Necessitatibus, incidunt suscipit. Provident recusandae doloremque
-            autem nostrum, maxime at voluptatibus. Autem!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            nostrum minima beatae voluptate modi doloribus est ex, cumque porro
-            sapiente deleniti, dolorum commodi corrupti molestiae necessitatibus
-            omnis inventore consequuntur aliquid!
-          </p>
-        </section>
+        <h2>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, minus?
+        </h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad officiis
+          molestiae distinctio vero officia tempora! Veritatis rem quo ipsa non.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Necessitatibus, incidunt suscipit. Provident recusandae doloremque
+          autem nostrum, maxime at voluptatibus. Autem!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          nostrum minima beatae voluptate modi doloribus est ex, cumque porro
+          sapiente deleniti, dolorum commodi corrupti molestiae necessitatibus
+          omnis inventore consequuntur aliquid!
+        </p>
       </aside>
       <section></section>
     </main>
