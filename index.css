@@ -1,0 +1,25 @@
+li{
+    list-style-type: none;
+    width: 30%;
+    border: 2em dashed cyan;
+    margin-bottom: 25px;
+    padding: 2.5rem;
+    background: linear-gradient(rgba(72, 255, 0, 0.308), rgba(255, 0, 64, 0.336),rgba(0, 87, 128, 0.397));
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    text-decoration: underline;
+    border-bottom: double;
+    background-color: yellow;
+}
+body{
+    background: url('./media/acad.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    main{
+    margin: auto;
+    }

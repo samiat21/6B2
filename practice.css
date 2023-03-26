@@ -1,0 +1,81 @@
+/* section{
+    background: blue;
+    min-height: 70vh;
+    width: 50vw;
+    margin: auto;
+    padding: 3em;
+    border: 1em dashed
+}
+section+section{
+    margin-top: -30px;
+    background: linear-gradient(45deg, green, crimson  );
+    
+}
+aside{
+    background-color: blue;
+    margin: auto;
+    width: 50vw;
+    height: 50vh;
+} */
+section{
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+}
+.others{
+    
+    border-left: 0.5em dashed cyan;
+    border-right: 0.5em dashed cyan;
+    }
+.africa{
+    border-top: 0.5em dashed cyan;
+    border-bottom: 0.5em dashed cyan;
+}
+.japan{
+    background: radial-gradient(red 20%, red 30%, white 30%, white 60%);
+}
+.germany{
+    background: linear-gradient(180deg,black 33%,red 33%,red 66%,yellow 66%);
+}
+.gabon{
+    background: linear-gradient(180deg,green 33%,yellow 33%,yellow 66%,blue 66%);
+}
+.nigeria{
+    background: linear-gradient(180deg,green 33%, white 33%,white 66%,green 66%);
+}
+.france{
+    background: linear-gradient(90deg,navy 33%,white 33%,white 66%,red 66%);
+}
+.gambia{
+    background: linear-gradient(180deg,red 30%,white 30%,white 33%,blue 33%, blue 63%, white 63%,white 66%, green 66%);
+}
+.belgium{
+    background: linear-gradient(180deg,black 33%,yellow 33%,yellow 66%,red 66%);
+}
+body{
+    background:url(./media/dove.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
