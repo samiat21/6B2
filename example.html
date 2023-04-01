@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      li {
+        display: inline-block;
+        width: 30%;
+
+        margin-bottm: 20px;
+        paddig: 2em 0;
+      }
+      /* main {
+        display: flex;
+        flex-direction: column-reverse;
+        background: blue;
+      } */
+      nav ul {
+        list-style: none;
+        background: fuchsia;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        height: 100px;
+      }
+      ul li:nth-of-type(3n + 1) {
+        align-self: flex-start;
+      }
+      ul li:nth-of-type(3n + 3) {
+        color: bisque;
+        align-items: center;
+      }
+      section {
+        background: red;
+      }
+      aside {
+        background: blue;
+      }
+
+      }
+      main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 100px 100px 200px 200px 150px;
+        gap: 20px;
+        grid-template-areas:
+          "a a a b"
+          "a a a b"
+          "i i i d"
+          "i i i d"
+          "e e e e";
+      }
+      main > :nth-child(1) {
+        grid-area: a;
+      }
+      main > :nth-child(2) {
+        grid-area: i;
+      }
+      main > :nth-child(3) {
+        grid-area: b;
+      }
+      main > :nth-child(4) {
+        grid-area: d;
+      }
+      main > :nth-child(5) {
+        grid-area: e;
+      }
+      div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 200px);
+        gap: 10px;
+      }
+      div section:first-of-type {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 200px);
+        gap: 10px;
+      }
+      section > * {
+        background: fuchsia;
+      }
+      div section:last-of-type {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 200px);
+        gap: 10px;
+      }
+      aside:first-of-type {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 100px);
+        gap: 10px;
+      }
+      aside > * {
+        background: aqua;
+      }
+      footer {
+        background: blue;
+      }
+      main > * {
+        background: green;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="">home 1</a></li>
+          <li><a href="">home 2</a></li>
+          <li><a href="">home 3</a></li>
+          <li><a href="">home 4</a></li>
+          <li><a href="">home 5</a></li>
+          <li><a href="">home 6</a></li>
+          <li><a href="">home 7</a></li>
+          <li><a href="">home 8</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article>fjnjrhcnjdj</article>
+      </section>
+      <div>
+        <section>
+          <article>ksufkjsPzkdh</article>
+          <article>ksufkjsPzkdh</article>
+        </section>
+        <section>
+          <article>skukmsd;WHjshg</article>
+          <article>skukmsd;WHjshg</article>
+          <article>skukmsd;WHjshg</article>
+        </section>
+      </div>
+      <aside>
+        <article>ensuilafnjf</article>
+        <article>ensuilafnjf</article>
+      </aside>
+
+      <aside>
+        <article>jaahdkuhi</article>
+      </aside>
+      <footer>sjkjasjyhbfiaiy</footer>
+    </main>
+  </body>
+</html>

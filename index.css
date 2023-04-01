@@ -21,5 +21,6 @@ body{
     background-attachment: fixed;
     }
     main{
-    margin: auto;
+    margin:0 auto;
+    width: 70%;
     }
